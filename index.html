@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Explore Hub</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="background">
+
+        <div class="container">
+
+            <!-- Header -->
+            <div class="header">
+                <div class="logo">✨ ExploreHub</div>
+                <span class="status">● Online</span>
+            </div>
+
+            <!-- Welcome -->
+            <div class="welcome">
+                <p class="small-text">WELCOME 👋</p>
+
+                <h1>Discover Something <span>New</span></h1>
+
+                <p>
+                    Explore our overview, learn more about us,
+                    or get in touch through the tabs below.
+                </p>
+            </div>
+
+            <!-- Statistics -->
+            <div class="stats">
+
+                <div class="stat-card">
+                    <div class="icon">🚀</div>
+                    <h3>50+</h3>
+                    <p>Projects</p>
+                </div>
+
+                <div class="stat-card">
+                    <div class="icon">⭐</div>
+                    <h3>4.9</h3>
+                    <p>Rating</p>
+                </div>
+
+                <div class="stat-card">
+                    <div class="icon">👥</div>
+                    <h3>1K+</h3>
+                    <p>Users</p>
+                </div>
+
+            </div>
+
+            <!-- Tabs -->
+            <div class="tabs">
+
+                <button class="tab active"
+                    onclick="openTab('overview', this)">
+                    🏠 Overview
+                </button>
+
+                <button class="tab"
+                    onclick="openTab('info', this)">
+                    💡 Info
+                </button>
+
+                <button class="tab"
+                    onclick="openTab('contact', this)">
+                    📩 Contact
+                </button>
+
+            </div>
+
+            <!-- Overview -->
+            <div id="overview" class="tab-content active-content">
+
+                <div class="content-icon">🚀</div>
+
+                <div>
+                    <h2>Everything Starts Here</h2>
+
+                    <p>
+                        Welcome to ExploreHub! This interactive section
+                        lets you discover our features and learn more
+                        about what we do.
+                    </p>
+
+                    <button class="action-button">
+                        Explore Now →
+                    </button>
+                </div>
+
+            </div>
+
+            <!-- Info -->
+            <div id="info" class="tab-content">
+
+                <div class="content-icon">💡</div>
+
+                <div>
+                    <h2>What We Do</h2>
+
+                    <p>
+                        We create simple, creative and user-friendly
+                        digital experiences using modern technologies.
+                    </p>
+
+                    <div class="features">
+
+                        <div>
+                            ⚡
+                            <strong>Fast</strong>
+                            <small>Quick experience</small>
+                        </div>
+
+                        <div>
+                            🎨
+                            <strong>Creative</strong>
+                            <small>Modern design</small>
+                        </div>
+
+                        <div>
+                            📱
+                            <strong>Responsive</strong>
+                            <small>Works everywhere</small>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Contact -->
+            <div id="contact" class="tab-content">
+
+                <div class="content-icon">📩</div>
+
+                <div>
+                    <h2>Let's Connect!</h2>
+
+                    <p>
+                        Have a question or want to work together?
+                        Feel free to reach out.
+                    </p>
+
+                    <div class="contact-details">
+                        <p>📧 hello@example.com</p>
+                        <p>📞 +91 98765 43210</p>
+                        <p>📍 Chennai, India</p>
+                    </div>
+
+                    <button class="action-button">
+                        Send Message →
+                    </button>
+
+                </div>
+
+            </div>
+
+            <!-- Footer -->
+            <footer>
+                Made with ❤️ using HTML, CSS & JavaScript
+            </footer>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
